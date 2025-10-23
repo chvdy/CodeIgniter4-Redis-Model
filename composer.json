@@ -1,0 +1,29 @@
+{
+  "name": "chvdy/codeigniter4-redis-model",
+  "description": "Alternative to build-in database models, used Redis Hash solution. Integrated with CI modules such as Validation and Entity.",
+  "type": "library",
+  "keywords": [
+    "codeigniter4",
+    "redis",
+    "model",
+    "validation",
+    "entity"
+  ],
+  "authors": [
+    {
+      "name": "Damian Chudy",
+      "email": "damian@chudy.it"
+    }
+  ],
+  "require": {
+    "php": "^8.4",
+    "ext-json": "*",
+    "ext-redis": "*",
+    "codeigniter4/framework": "^4.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chvdy\\RedisModel\\": "src"
+    }
+  }
+}
